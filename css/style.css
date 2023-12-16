@@ -14,7 +14,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.logo {
+.header_logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -26,7 +26,7 @@ a {
 
   color: #000101;
 }
-span {
+.header_span {
   color: #2196f3;
 }
 .header_block {
@@ -35,18 +35,18 @@ span {
   align-items: center;
   width: 510px;
 }
-.menu_link {
+.header_menu_link {
   width: 280px;
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
-.menu_contact {
+.header_menu_contact {
   gap: 30px;
   display: flex;
   justify-content: space-between;
 }
-.menu_contact a {
+.header_menu_contact a {
   color: #757575;
   font-family: Roboto;
   font-size: 14px;
@@ -55,7 +55,7 @@ span {
   line-height: normal;
   letter-spacing: 0.28px;
 }
-.menu_contact a:hover {
+.header_menu_contact a:hover {
   color: #2196f3;
 }
 header {

@@ -1,0 +1,9 @@
+@mixin text($size, $letter-spacing, $font-weight) {
+    color: $var1;
+    font-family: Roboto;
+    font-size: $size;
+    font-style: normal;
+    font-weight: $font-weight;
+    line-height: normal;
+    letter-spacing: $letter-spacing;
+  }
