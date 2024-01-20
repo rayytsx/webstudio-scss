@@ -96,28 +96,28 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.cards_list {
+.product__cards_list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.card {
+.product__card {
   background: #ffffff;
   border: 1px solid #eeeeee;
   width: 360px;
   height: 404px;
   margin-top: 30px;
 }
-.card h4, a {
+.product__card h4, a {
   margin: 0;
 }
-.card a {
+.product__card a {
   margin-top: 20px;
 }
-.card h4 {
+.product__card h4 {
   margin-top: 4px;
     margin-left: 24px;
 }
-.card img {
+.product__card img {
     width: 100%;
 }

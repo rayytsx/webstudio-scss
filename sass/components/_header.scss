@@ -3,7 +3,6 @@
 	width: 100%; 
 	position: fixed; 
 	background-color: #ffffff; 
-   
 	top: 0; 
 	@media (min-width: 320px) { 
 	  height: 60px; 
@@ -114,24 +113,17 @@
 	  @media (min-width: 320px) { 
 		display: none; 
 	  } 
-	  @media (max-width: 767px) { 
-		display: none; 
-	  } 
 	  @media (min-width: 768px) { 
 		display: flex; 
 	  } 
-	  @media (max-width: 767px) { 
-		display: none; 
-	  } 
 	} 
 	&__contact { 
-	  display: flex; 
-   
-	  align-items: center; 
 	  @media (min-width: 320px) { 
 		display: none; 
 	  } 
 	  @media (min-width: 768px) { 
+		display: flex; 
+		align-items: center;   
 		gap: 10px; 
 		display: flex; 
 		flex-wrap: wrap; 
@@ -144,11 +136,6 @@
 	  } 
 	} 
    
-	&__main { 
-	  display: flex; 
-	  justify-content: center; 
-	  width: 1600px; 
-	} 
 	&_menu { 
 	  width: 280px; 
 	  display: flex; 

@@ -25,7 +25,7 @@
           <div class="header__left">
             <a class="header__blok" href="/">
               <h2 class="header__logo">
-                <span class="color_span">Web</span>Studio
+                <span class="header__logo--span">Web</span>Studio
               </h2>
             </a>
 
@@ -71,84 +71,84 @@
             </svg>
           </button>
         </div>
-        <div class="drawer"> 
-          <button class="drawer__btn"> 
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              width="40" 
-              height="40" 
-              viewBox="0 0 40 40" 
-              fill="none" 
-            > 
-              <path 
-                d="M29.6667 12.88L27.7867 11L20.3333 18.4533L12.88 11L11 12.88L18.4533 20.3333L11 27.7867L12.88 29.6667L20.3333 22.2133L27.7867 29.6667L29.6667 27.7867L22.2133 20.3333L29.6667 12.88Z" 
-                fill="#212121" 
-              /> 
-            </svg> 
-          </button> 
-          <nav class="drawer__nav"> 
-            <ul class="drawer__menu"> 
-              <li class="drawer__item"> 
-                <a 
-                  class="drawer__link header__link" 
-                  data-page="page1" 
-                  href="./index.html" 
-                  >Студія</a 
-                > 
-              </li> 
-              <li class="drawer__item"> 
-                <a 
-                  class="drawer__link header__link" 
-                  data-page="page2" 
-                  href="./portfolio.html" 
-                  >Портфоліо</a 
-                > 
-              </li> 
-              <li class="drawer__item"> 
-                <a 
-                  class="drawer__link header__link" 
-                  data-page="page3" 
-                  href="#contacts" 
-                  >Контакти</a 
-                > 
-              </li> 
-            </ul> 
-          </nav> 
-          <div class="drawer__box"> 
-            <div class="drawer__contacts"> 
-              <a 
-                href="mailto:info@devstudio.com" 
-                class="header__contacts--link envelope drawer__contacts--envelope" 
-              > 
-                <i class="fa-regular fa-envelope fa-bounce"></i> 
- 
-                info@devstudio.com</a 
-              > 
-              <a 
-                href="tel:+380961111111" 
-                class="header__contacts--link drawer__contacts--tel" 
-              > 
-                <i class="fa-solid fa-mobile-screen-button fa-shake"></i> 
- 
-                +38 096 111 11 11</a 
-              > 
-            </div> 
- 
-            <ul class="drawer__list"> 
-              <li class="drawer__social"> 
-                <a href="#" class="drawer__link--social">Instagram</a> 
-              </li> 
-              <li class="drawer__social"> 
-                <a href="#" class="drawer__link--social">Twitter</a> 
-              </li> 
-              <li class="drawer__social"> 
-                <a href="#" class="drawer__link--social">Facebook</a> 
-              </li> 
-              <li class="drawer__social"> 
-                <a href="#" class="drawer__link--social">LinkedIn</a> 
-              </li> 
-            </ul> 
-          </div> 
+        <div class="drawer">
+          <button class="drawer__btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+            >
+              <path
+                d="M29.6667 12.88L27.7867 11L20.3333 18.4533L12.88 11L11 12.88L18.4533 20.3333L11 27.7867L12.88 29.6667L20.3333 22.2133L27.7867 29.6667L29.6667 27.7867L22.2133 20.3333L29.6667 12.88Z"
+                fill="#212121"
+              />
+            </svg>
+          </button>
+          <nav class="drawer__nav">
+            <ul class="drawer__menu">
+              <li class="drawer__item">
+                <a
+                  class="drawer__link header__link"
+                  data-page="page1"
+                  href="./index.html"
+                  >Студія</a
+                >
+              </li>
+              <li class="drawer__item">
+                <a
+                  class="drawer__link header__link"
+                  data-page="page2"
+                  href="./portfolio.html"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="drawer__item">
+                <a
+                  class="drawer__link header__link"
+                  data-page="page3"
+                  href="#contacts"
+                  >Контакти</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="drawer__box">
+            <div class="drawer__contacts">
+              <a
+                href="mailto:info@devstudio.com"
+                class="header__contacts--link envelope drawer__contacts--envelope"
+              >
+                <i class="fa-regular fa-envelope fa-bounce"></i>
+
+                info@devstudio.com</a
+              >
+              <a
+                href="tel:+380961111111"
+                class="header__contacts--link drawer__contacts--tel"
+              >
+                <i class="fa-solid fa-mobile-screen-button fa-shake"></i>
+
+                +38 096 111 11 11</a
+              >
+            </div>
+
+            <ul class="drawer__list">
+              <li class="drawer__social">
+                <a href="#" class="drawer__link--social">Instagram</a>
+              </li>
+              <li class="drawer__social">
+                <a href="#" class="drawer__link--social">Twitter</a>
+              </li>
+              <li class="drawer__social">
+                <a href="#" class="drawer__link--social">Facebook</a>
+              </li>
+              <li class="drawer__social">
+                <a href="#" class="drawer__link--social">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -159,12 +159,14 @@
             ефективні рішення для<br />
             вашого бізнесу
           </h1>
-          <button class="btn btn__open" data-open-modal>
+          <button class="promo__btn btn__open" data-open-modal>
             Замовити послугу
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <button class="btn-m btn__close" data-close-modal>&times;</button>
+              <button class="btn-m promo__btn--close" data-close-modal>
+                &times;
+              </button>
             </div>
           </div>
         </div>
@@ -214,61 +216,241 @@
           </ul>
         </div>
       </section>
-      <section class="what_we_do">
+      <section class="what__we_do">
         <div class="container">
-          <h2 class="what_we_do_title">Чим ми займаємося?</h2>
-          <ul class="what_we_do_items">
-            <li class="what_we_do_item">
+          <h2 class="what__we_do--title">Чим ми займаємося?</h2>
+          <ul class="what__we_do--items">
+            <li class="what__we_do--item">
               <img src="./img/typing.png" alt="typing" />
-              <p class="what_we_do_desc">Десктопні додатки</p>
+              <p class="what__we_do--desc">Десктопні додатки</p>
             </li>
-            <li class="what_we_do_item">
+            <li class="what__we_do--item">
               <img src="./img/choose.png" alt="choose" />
               <p class="what_we_do_desc">Мобільні додатки</p>
             </li>
-            <li class="what_we_do_item">
+            <li class="what__we_do--item">
               <img src="./img/color.png" alt="color" />
               <p class="what_we_do_desc">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
       </section>
-      <section class="team_ppl">
+      <section class="team">
         <div class="container">
-          <h2 class="team_title">Наша команда</h2>
-          <ul class="team-ppl-cards">
-            <li class="team-ppl-card">
+          <h2 class="team__title">Наша команда</h2>
+          <ul class="team__cards">
+            <li class="team__ppl--card">
               <img src="./img/igor.jpg" alt="Ігор Дем'яненко" />
-              <h3 class="team-ppl-name">Ігор Дем'яненко</h3>
-              <h4 class="team-ppl-sub">Product Desingner</h4>
-              <ul class="ppl-socials">
-                <li class="ppl-social">
-                  <a class="ppl-social-link" href="https://www.instagram.com/"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
+              <h3 class="team__ppl--name">Ігор Дем'яненко</h3>
+              <h4 class="team__ppl--sub">Product Designer</h4>
+              <ul class="team__ppl--socials">
+                <li class="team__ppl--socials">
+                  <a class="team__ppl--link" href="https://www.instagram.com/"
+                    ><i
+                      class="fa-brands fa-instagram"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
                 </li>
-                <li class="ppl-social">
-                  <a class="ppl-social-link" href="https://www.instagram.com/"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://twitter.com/"
+                    ><i class="fa-brands fa-twitter" style="color: #b0b1b9"></i>
+                  </a>
                 </li>
-                <li class="ppl-social">
-                  <a class="ppl-social-link" href="https://www.instagram.com/"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://uk-ua.facebook.com/"
+                    ><i
+                      class="fa-brands fa-facebook-f"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
                 </li>
-                <li class="ppl-social">
-                  <a class="ppl-social-link" href="https://www.instagram.com/"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://ua.linkedin.com/"
+                    ><i
+                      class="fa-brands fa-linkedin-in"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="team__ppl--card">
+              <img src="./img/olga.jpg" alt="Ольга Рєпіна" />
+              <h3 class="team__ppl--name">Ольга Рєпіна</h3>
+              <h4 class="team__ppl--sub">Frontend Developer</h4>
+              <ul class="team__ppl--socials">
+                <li class="team__ppl--socials">
+                  <a class="team__ppl--link" href="https://www.instagram.com/"
+                    ><i
+                      class="fa-brands fa-instagram"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
+                </li>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://twitter.com/"
+                    ><i class="fa-brands fa-twitter" style="color: #b0b1b9"></i>
+                  </a>
+                </li>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://uk-ua.facebook.com/"
+                    ><i
+                      class="fa-brands fa-facebook-f"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
+                </li>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://ua.linkedin.com/"
+                    ><i
+                      class="fa-brands fa-linkedin-in"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="team__ppl--card">
+              <img src="./img/mykhailo.jpg" alt="Микола Тарасов" />
+              <h3 class="team__ppl--name">Микола Тарасов</h3>
+              <h4 class="team__ppl--sub">Marketing</h4>
+              <ul class="team__ppl--socials">
+                <li class="team__ppl--socials">
+                  <a class="team__ppl--link" href="https://www.instagram.com/"
+                    ><i
+                      class="fa-brands fa-instagram"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
+                </li>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://www.instagram.com/"
+                    ><i class="fa-brands fa-twitter" style="color: #b0b1b9"></i>
+                  </a>
+                </li>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://www.instagram.com/"
+                    ><i
+                      class="fa-brands fa-facebook-f"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
+                </li>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://www.instagram.com/"
+                    ><i
+                      class="fa-brands fa-linkedin-in"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="team__ppl--card">
+              <img src="./img/mykhailo.jpg" alt="Михайло Єрмаков" />
+              <h3 class="team__ppl--name">Михайло Єрмаков</h3>
+              <h4 class="team__ppl--sub">UI Designer</h4>
+              <ul class="team__ppl--socials">
+                <li class="team__ppl--socials">
+                  <a class="team__ppl--link" href="https://www.instagram.com/"
+                    ><i
+                      class="fa-brands fa-instagram"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
+                </li>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://twitter.com/"
+                    ><i class="fa-brands fa-twitter" style="color: #b0b1b9"></i>
+                  </a>
+                </li>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://uk-ua.facebook.com/"
+                    ><i
+                      class="fa-brands fa-facebook-f"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
+                </li>
+                <li class="team__ppl--social">
+                  <a class="team__ppl--link" href="https://ua.linkedin.com/"
+                    ><i
+                      class="fa-brands fa-linkedin-in"
+                      style="color: #b0b1b9"
+                    ></i>
+                  </a>
                 </li>
               </ul>
             </li>
           </ul>
         </div>
       </section>
+      <section class="customers">
+        <div class="conatiner">
+          <ul class="customers__list">
+            <li class="customers__list--item"></li>
+            <li class="customers__list--item"></li>
+            <li class="customers__list--item"></li>
+            <li class="customers__list--item"></li>
+            <li class="customers__list--item"></li>
+            <li class="customers__list--item"></li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="conatainer">
+        <h2 class="footer__logo"><span>Web</span>studio</h2>
+        <h3 class="footer__adress">м. Київ, пр-т Лесі Українки, 26</h3>
+        <a class="footer__email" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="footer__phone" href="tel:+38 096 111 11 11"
+          >+38 096 111 11 11</a
+        >
+        <h2 class="footer__join">приєднутесь</h2>
+        <ul>
+          <li class="footer__social">
+            <a class="footer__social--link" href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
+            ></a>
+          </li>
+          <li class="footer__social">
+            <a class="footer__social--link" href="https://twitter.com/"
+              ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+            ></a>
+          </li>
+          <li class="footer__social">
+            <a class="footer__social--link" href="https://uk-ua.facebook.com/"
+              ><i class="fa-brands fa-facebook-f" style="color: #ffffff"></i
+            ></a>
+          </li>
+          <li class="footer__social">
+            <a class="footer__social--link" href="https://ua.linkedin.com/"
+              ><i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i
+            ></a>
+          </li>
+        </ul>
+        <h2>Підпишіться на розсилку</h2>
+        <input type="email" placeholder="E-mail" />
+        <button class="footer__btn">
+          Підписатися
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+    </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="btn-m btn_close" data-close-modal>&times;</button>
@@ -278,7 +460,6 @@
       src="https://kit.fontawesome.com/04de09b3f4.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./script.js"></script>
     <script src="./js/mobile_menu.js"></script>
   </body>
 </html>

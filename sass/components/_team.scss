@@ -1,0 +1,81 @@
+.team {
+    background: #f5f4fa;
+  .team__title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    padding: 94px 0;
+  }
+  .team__cards {
+    width: 270px;
+    height: 428px;
+    border-radius: 0px 0px 4px 4px;
+    background: #fff;
+    /* material shadow v1 */
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+  .team__card img {
+    width: 100%;
+    height: 260px;
+  }
+  .team__ppl--name {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-top: 30px;
+  }
+  .team__ppl--sub {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .team__ppl--link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    color: #afb1b8;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 100%;
+  }
+  .team__ppl--link i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+ &__ppl--link:hover {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  &__ppl--socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
