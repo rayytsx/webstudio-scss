@@ -17,20 +17,23 @@
 	  padding: 26px 0; 
 	} 
 	&__logo { 
-	  font-family: "Raleway"; 
-	  font-style: normal; 
-	  font-weight: 700; 
-	  line-height: 31px; 
-	  /* identical to box height */ 
-	  letter-spacing: 0.03em; 
-	  color: black; 
-	  @media (min-width: 768px) { 
-		font-size: 24px; 
-	  } 
-	  @media (min-width: 1200px) { 
-		font-size: 26px; 
-	  } 
-	} 
+		font-family: "Raleway"; 
+		font-style: normal; 
+		font-weight: 700; 
+		line-height: 31px; 
+		/* identical to box height */ 
+		letter-spacing: 0.03em; 
+		color: black; 
+		@media (min-width: 768px) { 
+		  font-size: 24px; 
+		} 
+		@media (min-width: 1200px) { 
+		  font-size: 26px; 
+		} 
+	}
+	&__logo--span {
+		color: #2196f3;
+	}
 	&__link::after { 
 	  display: block; 
 	  content: ""; 
@@ -110,6 +113,7 @@
 	  justify-content: space-between; 
 	  width: 280px; 
 	  padding: 0; 
+	  list-style: none;
 	  @media (min-width: 320px) { 
 		display: none; 
 	  } 
@@ -153,4 +157,4 @@
 	&__email > i { 
 	  margin-right: 10px; 
 	} 
-  }
+}
