@@ -1,10 +1,35 @@
 .promo {
-  background-image: url(../img/promobg.png);
+  background-image: url(../img/promo-mob-1x.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin-top: 75px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../img/promo-mob-2x.png);
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../../img/promo-tab-1x.png);
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../img/promo-tab-2x.png);
+  }
+
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url(../img/whisk-deskt1x.png);
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../img/promo-deskt-2x.png);
+  }
+  }
   @media (min-width: 320px) {
     margin-top: 60px;
   }
